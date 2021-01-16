@@ -1,8 +1,8 @@
 .ipynb_checkpoints/
-.__pycache__/
+__pycache__/
 .idea/
 *.json
 *.JSON
-.audio/
-.test/
-.extracted_data.json
+audio/
+test/
+extracted_data.json
