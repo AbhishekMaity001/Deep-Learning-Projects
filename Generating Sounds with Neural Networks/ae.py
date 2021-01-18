@@ -12,7 +12,7 @@ class Autoencoder :
 
     def __init__(self, input_shape, conv_filters, conv_kernels, conv_strides, latent_space_dim):
 
-        self.input_shape = input_shape # [28, 28, 1] h w channel
+        self.input_shape = input_shape # [28, 28, 1] height width channel
         self.conv_filters = conv_filters # [2, 4, 8] # no.of filters
         self.conv_kernels = conv_kernels # [3, 5, 3]
         self.conv_strides = conv_strides # [1, 2, 2] 1*1, 2*2, 2*2

@@ -1,0 +1,7 @@
+Read text from the images
+
+libraries- open cv , pytesseract
+
+install tesseract - ocr exe file
+
+https://github.com/UB-Mannheim/tesseract/wiki
