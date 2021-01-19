@@ -31,7 +31,7 @@ class Autoencoder :
 
         self._build_encoder()
         self._build_decoder()
-        #self._build_audoencoder()
+        #self._build_audoencoder() # pending 
 
 
     def summary(self):
