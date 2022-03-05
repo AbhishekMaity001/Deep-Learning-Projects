@@ -18,7 +18,7 @@ class familyMembers :
         self.filename = filename
 
     def predictfamilyMembers(self):
-        model = load_model('Epoch100.h5')
+        model = load_model(r'D:\Data Science\deeplearning-model files\family predictn model files\Epoch100.h5')
         imgname = self.filename
         test_image = image.load_img(imgname,target_size=(224,224))
         test_image = image.img_to_array(test_image)

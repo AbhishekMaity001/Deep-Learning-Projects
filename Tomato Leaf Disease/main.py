@@ -26,7 +26,7 @@ from werkzeug.utils import  secure_filename
 app = Flask(__name__)
 
 # Model path saved with keras model.save() method
-Model_path = 'model_inception_colab.h5'
+Model_path = r'D:\Data Science\deeplearning-model files\model_inception_colab.h5'
 # Now loading the model
 model  = load_model(Model_path)
 
